@@ -1,0 +1,141 @@
+/* Mise en forme générale */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* Navigation */
+nav {
+    background-color: #202c45;
+    color: white;
+    padding: 15px;
+    position: relative;
+}
+
+.logo {
+    display: inline-block;
+    margin: 5px 30px 5px 10px;
+    color: #ffb347;
+}
+
+
+
+/* Section accueil */
+header {
+    background-color: #ffe5d9;
+    text-align: center;
+    padding: 60px 20px;
+    position: relative;
+}
+
+
+
+
+
+
+/* Titres */
+.titre {
+    text-align: center;
+    margin: 35px 0 25px;
+    color: #202c45;
+}
+
+/* Boxes produits */
+
+
+/* Catégories */
+
+/* Formulaire */
+form {
+    width: 60%;
+    margin: 20px auto 40px;
+    padding: 25px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 3px 10px #ccc;
+    position: relative;
+}
+
+
+
+/* Pied de page */
+footer {
+    background-color: #202c45;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 30px;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+}
+
+button{
+    background-color: orangered;
+    color: white;
+    border-radius: 5px ;
+}
+.prod{
+   display: inline-block;
+    padding: 0 15px;
+    margin: 0 3%;
+    width: 350px;
+    height: 300px;
+    text-align: center;
+    box-shadow: 0 2px 5px #ccc;
+    background-color: white;
+    
+
+}
+
+img{
+    width: 100px;
+    height: 100px;
+}
+.list{
+    border-left:3px solid orangered;
+    margin-left: 10%;
+    box-shadow: 0 2px 5px #ccc;
+    width: 60%;
+    display: block;
+    margin: auto;
+    padding: 1px 0;
+}
+li{
+    padding: 5px;
+}
+.prix{
+    border: 1px solid black;
+    border-collapse: collapse;
+    margin: auto;
+    width: 60%;
+}
+tr,td,th{
+   border: 1px solid black; 
+   text-align: center;
+
+}
+th{
+    background-color: #202c45;
+    color: white;
+}
+.for{
+    margin: auto;
+}
+input, select, textarea {
+    width: 100%;
+}
+.for button {
+    margin: 17px auto;
+    display: block;
+}
+a:hover{
+    text-decoration: underline blueviolet;
+    transition: 0.3 ease;
+}
